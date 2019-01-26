@@ -1,0 +1,98 @@
+body { 
+	margin: 0;
+	padding: 0;
+	background: lightblue;
+ }
+ h2 { 
+ position: absolute;
+ margin: 0;
+ padding: 0;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+  }
+ h2 span { 
+ display: table-cell;
+ color: #000;
+ padding: 10px 30px;
+ font-family: monospace;
+ font-size: 45px;
+  }
+  h2:hover span { 
+  cursor: pointer;
+  animation: wow 0.7s infinite }
+  @keyframes wow
+  {
+  	0%
+  	{
+  		transform: translateY(0px);
+  	}
+  	50%
+  	{
+  		transform: translateY(-30px);
+  	}00%
+  	{
+  		transform: translateY(0px);
+  	}
+  }
+  h2 span:nth-child(1)
+  {
+  	animation-delay: .1s;
+  	
+  } h2 span:nth-child(2)
+  {
+  	animation-delay: .2s;
+  	
+  } h2 span:nth-child(3)
+  {
+  	animation-delay: .3s;
+  	
+  } h2 span:nth-child(4)
+  {
+  	animation-delay: .4s;
+  	
+  } h2 span:nth-child(5)
+  {
+  	animation-delay: .5s;
+  	
+  } h2 span:nth-child(6)
+  {
+  	animation-delay: .6s;
+  	
+  } h2 span:nth-child(7)
+  {
+  	animation-delay: .7s;
+  	
+  } h2 span:nth-child(8)
+  {
+  	animation-delay: .8s;
+
+  }h2 span:nth-child(9)
+  {
+  	animation-delay: .9s;
+
+  }h2 span:nth-child(10)
+  {
+  	animation-delay: .10s;
+
+  }h2 span:nth-child(11)
+  {
+  	animation-delay: .12s;
+
+  }h2 span:nth-child(12)
+  {
+  	animation-delay: .14s;
+
+  }h2 span:nth-child(13)
+  {
+  	animation-delay: .16s;
+
+  }h2 span:nth-child(14)
+  {
+  	animation-delay: .18s;
+
+  }h2 span:nth-child(15)
+  {
+  	animation-delay: .20s;
+
+  }
